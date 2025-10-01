@@ -4,6 +4,7 @@ public class objArticulo{
     private String Categoria;
     private int Existencias;
     private int Estado;
+    private Double Precio;
     
     public objArticulo() {
     }
@@ -46,6 +47,14 @@ public class objArticulo{
 
     public void setEstado(int estado) {
         Estado = estado;
+    }
+
+    public Double getPrecio() {
+        return Precio;
+    }
+
+    public void setPrecio(Double precio) {
+        Precio = precio;
     }
 
     
